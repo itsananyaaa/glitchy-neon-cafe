@@ -1,39 +1,55 @@
 import { Card, CardContent } from "@/components/ui/card";
 import Layout from "@/components/Layout";
 import cyberCityImage from "@/assets/cyber-city.jpg";
-import ananyaImage from "@/assets/team-ananya.jpg";
-import angelImage from "@/assets/team-angel.jpg";
-import annoseImage from "@/assets/team-annose.jpg";
-import annaImage from "@/assets/team-anna.jpg";
+import alexaImage from "@/assets/team-alexa.jpg";
+import lunaImage from "@/assets/team-luna.jpg";
+import kyraImage from "@/assets/team-kyra.jpg";
+import rinImage from "@/assets/team-rin.jpg";
+import zoeImage from "@/assets/team-zoe.jpg";
+import mayaImage from "@/assets/team-maya.jpg";
 
 const teamMembers = [
   {
-    name: "Ananya Biju",
+    name: "Alexa Rao",
     role: "The Code Whisperer",
-    image: ananyaImage,
+    image: alexaImage,
     quote: "I speak fluent binary and make coffee machines think they're sentient.",
     funFact: "Can debug code while brewing the perfect espresso shot"
   },
   {
-    name: "Angel Rose Ivin",
+    name: "Luna Mehta",
     role: "The Neon Muse",
-    image: angelImage,
+    image: lunaImage,
     quote: "I paint with light and design dreams in neon.",
     funFact: "Creates holographic latte art that defies physics"
   },
   {
-    name: "Annose PT",
+    name: "Kyra Das",
     role: "Byte Smith",
-    image: annoseImage,
+    image: kyraImage,
     quote: "I forge digital experiences one pixel at a time.",
     funFact: "Built our quantum coffee brewing algorithm"
   },
   {
-    name: "Anna Sijo",
+    name: "Rin Kapoor",
     role: "The Pixel Enchanter",
-    image: annaImage,
+    image: rinImage,
     quote: "Every interface tells a story, every animation has a soul.",
     funFact: "Makes our UI elements dance to cyberpunk beats"
+  },
+  {
+    name: "Zoe Thomas",
+    role: "Circuit Bard",
+    image: zoeImage,
+    quote: "I compose neon symphonies in code.",
+    funFact: "Can turn error logs into poetry"
+  },
+  {
+    name: "Maya Singh",
+    role: "Quantum Brewer",
+    image: mayaImage,
+    quote: "I bend time so your coffee arrives just before you need it.",
+    funFact: "Invented our time-dilated cold brew"
   }
 ];
 
